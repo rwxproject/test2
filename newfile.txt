@@ -1,1 +1,19 @@
 new stuff
+
+
+553  mkdir github
+  554  git clone https://github.com/rwxproject/test2.git
+  555  ls
+  556  cd test2/
+  557  ls
+  558  touch newfile.txt
+  559  echo "new stuff" > newfile.txt 
+  560  cat newfile.txt 
+  561  git add .
+  562  git status
+  563  git commit -m "new stuff"
+  564  git status
+  565  git branch --unset-upstream
+  566  git status
+  567  git push origin master
+  568  history
